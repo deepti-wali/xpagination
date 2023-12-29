@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+
+  align-items: center;
+}
+table,
+table td {
+  border: 2px solid #cccccc;
+  /* background-color: skyblue; */
+}
+tr :hover {
+  background-color: dodgerblue;
+  color: white;
+}
+td th {
+  height: 80px;
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  table,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+}
